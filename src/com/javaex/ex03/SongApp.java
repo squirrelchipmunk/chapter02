@@ -20,18 +20,23 @@ public class SongApp {
 		s2.setTrack("2");
 		s2.setYear(2007);
 		
-		Song s3 = new Song();
-		s3.setAlbum("버스커버스커1집");
-		s3.setArtist("버스커버스커");
-		s3.setComposer("장범준");
-		s3.setTitle("벚꽃엔딩");
-		s3.setTrack("4");
-		s3.setYear(2012);
+//		Song s3 = new Song();
+//		s3.setAlbum("버스커버스커1집");
+//		s3.setArtist("버스커버스커");
+//		s3.setComposer("장범준");
+//		s3.setTitle("벚꽃엔딩");
+//		s3.setTrack("4");
+//		s3.setYear(2012);
+		Song s3 = new Song("벚꽃엔딩", "버스커버스커","버스커버스커1집","장범준",2012,"4");
 		
 		s1.showInfo();
 		s2.showInfo();
 		s3.showInfo();
 		
+//		System.out.println();
+//		System.out.println(s1.toString());
+//		System.out.println(s2.toString());
+//		System.out.println(s3.toString());
 	}
 
 }

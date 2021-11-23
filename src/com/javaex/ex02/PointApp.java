@@ -9,11 +9,14 @@ public class PointApp {
 		p1.setY(5);
 		p1.draw();
 		
-		Point p2 = new Point();
-		p2.setX(10);
-		p2.setY(23);
+		Point p2 = new Point(7,7);
+//		p2.setX(10);
+//		p2.setY(23);
 		p2.draw();
 		
+		Point p3 = new Point(100);
+		p3.setY(101);
+		p3.draw();
 
 	}
 

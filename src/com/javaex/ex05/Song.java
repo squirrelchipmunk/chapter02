@@ -1,4 +1,4 @@
-package com.javaex.ex03;
+package com.javaex.ex05;
 
 public class Song {
 
@@ -12,10 +12,11 @@ public class Song {
 
 	// 생성자
 	public Song() {
-		
+
 	}
-	
+
 	public Song(String title, String artist, String album, String composer, int year, String track) {
+
 		this.title = title;
 		this.artist = artist;
 		this.album = album;
@@ -24,9 +25,7 @@ public class Song {
 		this.track = track;
 	}
 
-	// 메소드
-	// alt shift s 게터 세터 팝업
-	// ctrl shift f 줄 정렬
+	// 메소드g/s
 	public String getTitle() {
 		return title;
 	}
@@ -75,17 +74,11 @@ public class Song {
 		this.track = track;
 	}
 
-	public void showInfo() {
-		System.out.printf("%s, %s ( %s, %d, %s번 track, %s 작곡 )\n", artist, title, album, year, track, composer);
-	}
-
-	// 값을 간단히 확인하고 싶을 때
+	// 메소드일반
 	@Override
 	public String toString() {
 		return "Song [title=" + title + ", artist=" + artist + ", album=" + album + ", composer=" + composer + ", year="
 				+ year + ", track=" + track + "]";
 	}
-
-	
 
 }

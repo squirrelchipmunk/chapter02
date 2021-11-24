@@ -12,16 +12,37 @@ public class Song {
 
 	// 생성자
 	public Song() {
-
+		//메모리 올리는 일
 	}
-
+	
+	public Song(String title, String artist, String album, String composer) {
+		this(title, artist, album, composer, 0);
+	}
+	
+	
+	public Song(String title, String artist, String album, String composer, int year) {
+		//메모리 올리는 일
+		this.title = title;
+		this.artist = artist;
+		this.album = album;
+		
+		// 이름이 최대 10글자
+		this.composer = composer;
+		
+		// 년도가 2021이후면 2021로 처리
+		this.year = year;
+	}
+	
 	public Song(String title, String artist, String album, String composer, int year, String track) {
-
+		//메모리 올리는 일
+		this(title, artist, album, composer, year);
+		/*
 		this.title = title;
 		this.artist = artist;
 		this.album = album;
 		this.composer = composer;
 		this.year = year;
+		*/
 		this.track = track;
 	}
 

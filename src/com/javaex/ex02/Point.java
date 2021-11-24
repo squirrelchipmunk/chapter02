@@ -47,5 +47,14 @@ public class Point {
 	public void draw() {
 		System.out.printf("점[x=%d, y=%d]을 그렸습니다\n", x, y);
 	}
+	
+	public void draw(boolean action) {
+		if(action)
+			System.out.printf("점[x=%d, y=%d]을 그렸습니다\n", x, y);
+		else if(!action)
+			System.out.printf("점[x=%d, y=%d]을 지웠습니다\n", x, y);
+		else
+			System.out.println("잘못된 입력입니다.");
+	}
 
 }

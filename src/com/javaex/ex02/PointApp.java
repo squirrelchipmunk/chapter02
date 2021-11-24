@@ -18,6 +18,10 @@ public class PointApp {
 		p3.setY(101);
 		p3.draw();
 
+		Point p4 = new Point(55,65);
+		p4.draw(true);
+		p4.draw(false);
+		p4.draw();
 	}
 
 }

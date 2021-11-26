@@ -34,8 +34,8 @@ public class Point {
 	
 	public void showInfo() {
 		System.out.println("==============");
-		System.out.println("x : "+x);
-		System.out.println("y : "+y);
+		System.out.println("x : "+this.getX());
+		System.out.println("y : "+this.getY());
 		System.out.println("==============");
 		System.out.println();
 	}

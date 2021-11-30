@@ -22,7 +22,7 @@ public class ShapeApp {
 		for(int i=0;i<rArray.length;i++) {
 			rArray[i].draw();
 		}
-		System.out.println("=====================");
+		System.out.println("");
 		
 		
 		Circle[] cArray = new Circle[3];
@@ -37,7 +37,7 @@ public class ShapeApp {
 		for(int i=0;i<cArray.length;i++) {
 			cArray[i].draw();
 		}
-		System.out.println("=====================");
+		System.out.println("");
 		
 		Triangle[] tArray =  new Triangle[3];
 		Triangle t01 = new Triangle("파랑","파랑",10,5);
